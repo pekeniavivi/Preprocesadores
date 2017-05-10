@@ -1,0 +1,105 @@
+#main {
+    background-color: green;
+    $bg : rgb(242,	242,	242);
+    $top: rgb(86, 82, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    $familyh3: unquote("Indie+Flower");
+    @import url("http://fonts.googleapis.com/css?family=#{$familyh3}");
+
+     .profile {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 0;
+      background-color: $bg;
+
+      h3 {
+        font: {
+        weight: bold;
+        size: 20px;
+        family: '$familyh3', cursive;
+        }
+      }
+      .name {
+        color: white;
+      }
+      p {
+        padding: 0 20px;
+        margin: 5px 0 20px 0;
+      }
+      .title {
+        color: $top;
+        font-size: 18px;
+      }
+      .title2 {
+        font-size: 18px;
+        color: white;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+      .description2 {
+        @extend .description;
+        float: left;
+        text-align: left;
+      }
+
+      .top-bg {
+        height: 75px;
+        background-color: $top;
+      }
+      .top-bg2{
+        @extend .top-bg;
+
+      }
+
+      .img-circle {
+        border-radius: 50%;
+        border: 2px solid white; 
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: -50px auto 25px auto;
+      }
+
+      .img-circle2 {
+        border-radius: 50%;
+        border: 2px solid white; 
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: -50px auto 25px 50px;
+        float:left;
+      }
+
+      .buttons {
+        border-top: 1px solid #999;
+        div {
+          &:first-child {
+            width: 149px;
+            border-right: 1px solid #999;
+          }
+          width: 150px;
+          float: left;
+          i{
+            color: #999;
+            margin: 25px 0;
+          } 
+        }
+      }
+      .buttons2 {
+        position: relative;
+        left: 15px;
+      }
+    }
+
+    .small {
+      width: 300px;
+    }
+
+    .large {
+      width: 500px;
+      float: right;
+    }
+}

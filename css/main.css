@@ -1,0 +1,66 @@
+@import url("http://fonts.googleapis.com/css?family=Indie+Flower");
+#main {
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+  #main .profile {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0;
+    background-color: #f2f2f2; }
+    #main .profile h3 {
+      font-weight: bold;
+      font-size: 20px;
+      font-family: '$familyh3', cursive; }
+    #main .profile .name {
+      color: white; }
+    #main .profile p {
+      padding: 0 20px;
+      margin: 5px 0 20px 0; }
+    #main .profile .title {
+      color: #56526d;
+      font-size: 18px; }
+    #main .profile .title2 {
+      font-size: 18px;
+      color: white; }
+    #main .profile .description, #main .profile .description2 {
+      font-size: 14px; }
+    #main .profile .description2 {
+      float: left;
+      text-align: left; }
+    #main .profile .top-bg, #main .profile .top-bg2 {
+      height: 75px;
+      background-color: #56526d; }
+    #main .profile .img-circle {
+      border-radius: 50%;
+      border: 2px solid white;
+      height: 100px;
+      width: 100px;
+      display: block;
+      margin: -50px auto 25px auto; }
+    #main .profile .img-circle2 {
+      border-radius: 50%;
+      border: 2px solid white;
+      height: 100px;
+      width: 100px;
+      display: block;
+      margin: -50px auto 25px 50px;
+      float: left; }
+    #main .profile .buttons {
+      border-top: 1px solid #999; }
+      #main .profile .buttons div {
+        width: 150px;
+        float: left; }
+        #main .profile .buttons div:first-child {
+          width: 149px;
+          border-right: 1px solid #999; }
+        #main .profile .buttons div i {
+          color: #999;
+          margin: 25px 0; }
+    #main .profile .buttons2 {
+      float: left; }
+  #main .small {
+    width: 300px; }
+  #main .large {
+    width: 500px;
+    float: right; }
